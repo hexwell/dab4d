@@ -1,0 +1,4 @@
+- TODO(Generalize) How many k-d grids do I need to represent an n-d grid?
+  How many 2d grids do I need to represent a 3d grid?
+    To represent an X by Y by Z 3d grid, these grids are necessary (using Ettore's slices method):
+    (Z + 1)(X by Y) + (X + 1)(Y by Z)
