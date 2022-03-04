@@ -197,9 +197,9 @@ class Grid4D(Grid3D):
 
     '''
 
-    # noinspection PyMethodOverriding,PyMethodParameters
+    # noinspection PyMethodOverriding
     @classmethod
-    def _dims(_, x, y, z, w):
+    def _dims(cls, x, y, z, w):
         # noinspection PyPep8Naming
         pX, pY, pZ = super()._dims(x, y, z)
 
